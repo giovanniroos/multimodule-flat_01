@@ -69,7 +69,7 @@
             <artifactId>jgitflow-maven-plugin</artifactId>
             <version>1.0-m5.1</version>
 		  <configuration>
-		  
+			<allowSnapshots>true</allowSnapshots>
 			<!-- Enable this to push to origin using SSH keys -->
 			<enableSshAgent>false</enableSshAgent>
 			<!-- Keep your maven submodules at the same version as the parent POM -->
@@ -85,7 +85,7 @@
 			  origin; you can then either manually deploy them or, if you are doing Continuous
 			  Deployments, auto-deploy them to prod
 			-->
-			<pushReleases>false</pushReleases>
+			<pushReleases>true</pushReleases>
 			<!--
 			  Hot Fixes should be pushed to origin as well so that any dev can pick them up
 			-->
@@ -107,6 +107,7 @@
 			  <!-- You can also customize your tag prefixes -->
 			  
 			</flowInitContext>
+			<defaultOriginUrl>http://localhost:8081/nexus/content/repositories/releases</defaultOriginUrl>
 			<username>giovanniroos</username>
 			<password>c@36Siem</password>
 		  </configuration>
