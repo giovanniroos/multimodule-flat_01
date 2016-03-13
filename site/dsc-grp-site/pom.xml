@@ -107,7 +107,7 @@
 			  <!-- You can also customize your tag prefixes -->
 			  
 			</flowInitContext>
-			<defaultOriginUrl>http://localhost:8081/nexus/content/repositories/releases</defaultOriginUrl>
+			<defaultOriginUrl>https://github.com/giovanniroos/multimodule-flat_01.git</defaultOriginUrl>
 			<username>giovanniroos</username>
 			<password>c@36Siem</password>
 		  </configuration>
