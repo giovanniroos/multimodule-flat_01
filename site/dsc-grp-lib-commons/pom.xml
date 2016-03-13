@@ -9,7 +9,7 @@
   </parent>
   <groupId>za.dsc.grp.lib</groupId>
   <artifactId>dsc-grp-lib-commons</artifactId>
-  <name>GROUP RISK:// Commons Java Library</name>
+  <name>GROUP RISK: Commons Java Library</name>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>

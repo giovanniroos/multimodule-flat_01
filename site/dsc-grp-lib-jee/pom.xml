@@ -9,7 +9,7 @@
   </parent>
   <groupId>za.dsc.grp.lib</groupId>
   <artifactId>dsc-grp-lib-jee</artifactId>
-  <name>GROUP RISK:// JEE Framework</name>
+  <name>GROUP RISK: JEE Framework</name>
   <dependencies>
     <dependency>
       <groupId>za.dsc.grp.lib</groupId>
